@@ -26,3 +26,7 @@ export function center(node) {
       : node.sourceLinks.length ? min(node.sourceLinks, targetDepth) - 1
       : 0;
 }
+
+export function fixed(node, n, minDepth) {
+	return node.depthLevel - minDepth
+}

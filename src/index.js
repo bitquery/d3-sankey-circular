@@ -3,5 +3,6 @@ export {
   center as sankeyCenter,
   left as sankeyLeft,
   right as sankeyRight,
-  justify as sankeyJustify
+	justify as sankeyJustify,
+	fixed as sankeyFixed
 } from './align'
